@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <script language="javascript">
+        function len() {
+            str = "Hello"
+            alert(str.length)
+        }
+        function ccat() {
+            str1 = "hello"
+            str2 = "friends"
+            alert(str1.concat(str2))
+        }
+        function ind() {
+            str3 = "india"
+            alert(str3.indexOf("n"))
+        }
+        function c_at() {
+            str4 = "tajmahal"
+            alert(str4.charAt(3))
+        }
+        function srch() {
+            str5 = "harshal"
+            alert(str5.search("a"))
+        }
+        function lcase() {
+            str6 = "INDIA"
+            alert(str6.toLowerCase())
+
+        }
+        function ucase() {
+            str7 = "computer"
+            alert(str7.toUpperCase())
+        }
+        function strat() {
+            str8 = "application"
+            alert(str8.substring(0, 4))
+        }
+        function chang() {
+            str9 = "hello"
+            str0 = "friends"
+            alert(str9.replace("hello", "ram ram"))
+        }
+
+    </script>
+    <style>
+        input[type=button] {
+            color: goldenrod;
+            background: brown;
+            box-shadow: 5px 5px 5px 5px black;
+            border-radius: 5px 0px 5px 0px;
+            font-family: 'Franklin Gothic Medium';
+        }
+
+        input[type=button]:hover {
+            color: #003366;
+            background: #ffcc00;
+            font-size: 30px;
+            box-shadow: 5px 5px 5px 5px black;
+            border-radius: 5px 0px 5px 0px;
+
+        }
+    </style>
+</head>
+
+<body bgcolor="#999966">
+    <form>
+
+        <input type="button" value="show length" onclick="len()"><br><br>
+        <hr>
+        <input type="button" value="show concat" onclick="ccat()"><br><br>
+        <hr>
+        <input type="button" value="show index" onclick="ind()"><br><br>
+        <hr>
+        <input type="button" value="show character_at" onclick="c_at()"><br><br>
+        <hr>
+        <input type="button" value="search" onclick="srch()"><br><br>
+        <hr>
+        <input type="button" value="show lower_string" onclick="lcase()"><br><br>
+        <hr>
+        <input type="button" value="show upper_string" onclick="ucase()"><br><br>
+        <hr>
+        <input type="button" value="show sub_str" onclick="strat()"><br><br>
+        <hr>
+        <input type="button" value="show chng_string" onclick="chang()"><br><br>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <script language="javascript">
+        function checkname() {
+            s = document.getElementById("name").value
+            if (s.length == -1) {
+                alert("name should not blank")
+                document.getElementById("name").focus()
+            }
+        }
+        function checklname() {
+            s = document.getElementById("lname").value
+            if (s.length == -1) {
+                alert("name should not blank")
+                document.getElementById("lname").focus()
+            }
+        }
+        function greetmsg() {
+            alert("welcome on our web page")
+        }
+        function byemsg() {
+            alert("good bye!!")
+        }
+        function showfullname() {
+            f = document.getElementById("name").value
+            s = document.getElementById("lname").value
+            fn = f + "" + s
+            document.getElementById("fname").value = fn
+        }
+        function checkblank() {
+            document.getElementById("fname").value
+            if (fn.length == -1) {
+                alert("fullname should not be blank")
+            }
+        }
+    </script>
+</head>
+
+<body onload="greetmsg()" onunload="byemsg()">
+    <form>
+        <input type="text" id="name" onblur="checkname()"><br>
+        <input type="text" id="lname" onchange="checklname()"><br>
+        <input type="text" id="fname" onblur="showfullname()"><br>
+        <input type="button" value="click me" onclick="checkblank()">
+
+    </form>
+</body>
+
+</html>

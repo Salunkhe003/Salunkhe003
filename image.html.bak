@@ -1,0 +1,14 @@
+<html>
+<head><style>
+body
+{
+background-image:url("D:\ironman.jpg");
+background-repeat:no-repeat;
+background-position:left;
+background-size:300;
+}
+</style>
+</head>
+<body>
+</body>
+</html>

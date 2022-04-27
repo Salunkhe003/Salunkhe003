@@ -1,0 +1,30 @@
+<html>
+<head>
+<style>
+p
+{
+color:#001a33;
+background:#ff8c1a;
+font-size:30px;
+font-varient:small-caps;
+font-weight:400;
+font-family:jokerman;
+}
+.text
+{
+color:#ffd480;
+background:#660000;
+font-size:30px;
+font-varient:small-caps;
+font-weight:600;
+font-family:snap itc;
+}</style></head>
+<body>
+<p>BCA, full form Bachelor of Computer Application, is a 3-year UG course that imparts knowledge on the basics of computer application and software development.
+BCA Admission 2022 is granted through both merit-based and entrance exam-based admission processes. The minimum BCA eligibility criteria followed across all Top BCA Colleges 
+is 50% marks in 10+2 or equivalent examination with computer application/computer science as an additional or core subject. </p>
+<p class=text>BCA, full form Bachelor of Computer Application, is a 3-year UG course that imparts knowledge on the basics of computer application and software development.
+BCA Admission 2022 is granted through both merit-based and entrance exam-based admission processes. The minimum BCA eligibility criteria followed across all Top BCA Colleges 
+is 50% marks in 10+2 or equivalent examination with computer application/computer science as an additional or core subject. </p>
+</body>
+</html>

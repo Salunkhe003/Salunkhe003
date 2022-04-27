@@ -1,0 +1,20 @@
+<html>
+<head>
+<style>
+  body
+  {
+  background:aqua;
+  }
+  @media screen and(max width:1000px)
+  {
+    body
+    {
+      background:pink;
+      font-size:20px;
+    }
+  }
+</style>
+<body>
+this is the paragraph
+</body>
+</html>

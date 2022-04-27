@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <script language="javascript">
+        function check() {
+            no = eval(document.getElementById("txtno").value)
+            if (no % 2 == 0) {
+                alert(no + " is even")
+            }
+            else {
+                alert(no + " is odd")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        enter no:<input type="text" id="txtno"><br><br>
+        <input type="button" value="show even/odd" onclick="check()">
+    </form>
+</body>
+
+</html>

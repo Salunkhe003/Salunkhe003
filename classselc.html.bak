@@ -1,0 +1,22 @@
+<html>
+<head>
+<style>
+.info
+{
+color:#660033;
+background:#ffcc99;
+text-align:center;
+}
+p.harsh
+{
+color:#00ffff;
+background:#003300;
+text-align:center;
+}</style></head>
+<body>
+<h1 class=info>
+harshal salunkhe</h1>
+<p class=info>
+this paragraph is affected by the css styles</p>
+</body>
+</html>

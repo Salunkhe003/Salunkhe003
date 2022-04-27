@@ -1,0 +1,50 @@
+<html>
+<head><style>
+.form1
+{
+background:aqua;
+height:420px;
+width:250px;
+border-radius:30px 0px 30px 0px;
+margin-top:50px;
+margin-left:200px;
+box-shadow:10px 10px 10px 10px grey;
+}
+h1
+{
+align:center;
+}
+form
+{
+padding-left:75px;
+font-size:20px;
+padding-top:1px;
+}
+input[type=submit]
+{
+color:white;
+background:black;
+}
+input[type=submit]:hover
+{
+color:black;
+background:red;
+font-size:20px;
+}
+</style></head>
+<body>
+<form class=form1>
+<h1>form<u style="color:red;">get</u></h1>
+full name:-<br>
+<input style="background-image:url("C:\Users\harsh\Pictures\download pics\name.png");
+background-size:50px; background-repeat:no-repeat;  type="text" placeholder="fullname"><br><br>
+e-mail:-<br>
+<input type="text" placeholder="e-mail"><br><br>
+contact number:-<br>
+<input type="text" placeholder="contact number"><br><br>
+adress:-<br>
+<input type="text" placeholder="address"><br><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+.header
+{
+margin:50px 250px 0px;
+color:white;
+background:red;
+text-align:center;
+padding:10px;
+}
+.container
+{
+width:100%;
+}
+.left
+{
+width:15%;
+float:left;
+height:70%;
+background:yellow;
+}
+.body
+{
+width:65%;
+float:left;
+background:pink;
+padding:5px;
+}
+.right
+{
+width:15%;
+float:left;
+height:70%;
+background:blue;
+}
+.footer
+{
+margin:8px;
+clear:both;
+color:white;
+background:black;
+text-align:center;
+padding:10px;
+}
+</style></head>
+<body>
+
+<div class="header">
+<h2>java t point</h2></div>
+
+<div class="container">
+
+<div class="left">
+<p>left page</p>
+</div>
+
+<div class="body">
+<h1>body page</h1>
+
+<p>page content goes here</p><p>page content goes here</p>
+<p>page content goes here</p><p>page content goes here</p>
+<p>page content goes here</p><p>page content goes here</p>
+<p>page content goes here</p><p>page content goes here</p>
+<p>page content goes here</p><p>page content goes here</p>
+<p>page content goes here</p>
+</div>
+
+<div  class="right">
+
+<p> right page</p>
+
+</div>
+</div>
+
+<div class="footer">
+
+<p> footer </p>
+
+</div>
+
+</body>
+</html>

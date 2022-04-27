@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+.harsh
+{
+color:brown;
+background:gold;
+text-align:center;
+font-size:50px;
+text-transform:uppercase;
+}
+.main
+{
+color:blue;
+background:red;
+font-weight:500;
+text-transform:capitalize;
+font-size:20px;
+}
+</style></head>
+<body>
+      <div class=harsh>
+      shirpur  education society
+      </div>
+      <div class=main>
+      institute of management research and development
+      </div>
+</body>
+</html>

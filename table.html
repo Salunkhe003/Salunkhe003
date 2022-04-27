@@ -1,0 +1,21 @@
+<html>
+<haed>
+    <script type="text/javascript">
+
+        function demo() {
+            no = eval(document.getElementById("textno").value)
+            for (i = 1; i <= 10; i++) {
+                document.write(no * i + "<br>")
+            }
+        }
+    </script>
+    </head>
+
+    <body>
+        <form>
+            enter no<input type="text" id="textno">
+            <input type="button" value="click" onclick="demo()">
+        </form>
+    </body>
+
+</html>

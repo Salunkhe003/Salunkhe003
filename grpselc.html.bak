@@ -1,0 +1,13 @@
+<html>
+<head>
+<style>
+h1,p
+{
+color:#000000;
+background:#ffddla;
+text-align:center;
+}</style></head>
+<body>
+<h1>this is the HEADING</h1>
+<p>this is the PARAGRAPH</p>
+</body></html>

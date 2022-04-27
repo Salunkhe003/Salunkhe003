@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <script language="javascript">
+        function showkey() {
+            key = e.keycode
+            key2 = String.fromCharCode(key)
+            alert(key + " " + key2)
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <input type="text" id="txtname" onkeypress="showkey()">
+    </form>
+</body>
+
+</html>
